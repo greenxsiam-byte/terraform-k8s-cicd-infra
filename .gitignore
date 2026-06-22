@@ -1,0 +1,10 @@
+﻿# Terraform state and provider binaries  never commit these
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# Misc clutter that shouldn't be in the repo
+*.zip
+*.pem
+*.ppk
